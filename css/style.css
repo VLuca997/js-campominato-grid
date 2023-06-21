@@ -1,55 +1,22 @@
 /*
 
-        HEADER
+        GRID
 
 */
 
-.body{
+.main{
         background-color: purple;
         
 }
-.elements-container{
-        max-width: 80%;
+.my-grid-container{
+        width: 1000px;
         margin: 0 auto;
-        width: calc(100% / 13);
-        height: 6.25rem;
-        border: 2px solid black;
-        background-color: red;
 }
-.elements.click{
+.my-grid-container.click{
+        width: 10%;
+        height: 150px;
+        width: 150px;
+}
+.my-grid-container > .element.active{
         background-color: transparent;
 }
-.my-grid-container{
-        
-        
-
-}
-
-
-/*
-
-        MAIN
-
-*/
-
-
-
-
-
-
-
-
-/*
-
-        FOOTER
-
-*/
-
-
-
-
-/*
-
-        DEBUG
-
-*/
