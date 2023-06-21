@@ -29,31 +29,37 @@
     
 </head>
 <body id="debug">
-
-
-
-
     <!-- HEADER -->
-    <header>
-        HEADER
+    <header class="text-center p-3">
+
+        <h1>IMPOSTA LA DIFFICOLTA' E TENTA LA SFIDA, PREMI PLAY!</h1>
+
     </header>
 
-
-
     <!-- MAIN -->
-    <main>
-        MAIN
+    <main class="">
+        <!-- FORM DIFFICULTY -->
+        <div class="d-flex justify-content-center mb-5">
+            <select class="form-select w-25" aria-label="Default select example">
+
+                <option selected>Select a Game Mode</option>
+
+                <option value="1">Easy</option>
+
+                <option value="2">Medium</option>
+
+                <option value="3">Hard</option>
+
+            </select>
+            <!-- BUTTON -->
+             <button type="button" class="btn btn-primary" onclick="generateGrid()">Avvia Gioco</button> <!-- // avvia la griglia di elementi -->
+        </div>
+        
+        <div id="my-grid-container d-flex justify-content-center align-items-center flex-wrap " class="elements-container">
+            <!-- //stampa con js la classe element -->
+        </div>
+        
     </main>
-
-
-
-    <!-- FOOTER -->
-    <footer>
-        FOOTER
-    </footer>
-
-
-
 
     <!-- JS SCRIPT.JS -->
     <script type="text/javascript" src="js/script.js"></script>
